@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "863303113243",
+    "project_id": "easy-map-8ef23",
+    "storage_bucket": "easy-map-8ef23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863303113243:android:f0e5bd4aa58cb4b881b6be",
+        "android_client_info": {
+          "package_name": "com.airmoll.easymap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863303113243-ru6kl5knlr6qpokg2om5imrbvbdpiv36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.airmoll.easymap",
+            "certificate_hash": "f8f6bec2875ddcec53c561943dc9e115c5d5a08b"
+          }
+        },
+        {
+          "client_id": "863303113243-lrbgnieicvl9ijom5efgkrln18sa970m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVf4j358xBvo0rKybQ7vk9L76v0Xvr3V0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863303113243-lrbgnieicvl9ijom5efgkrln18sa970m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

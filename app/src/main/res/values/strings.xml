@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Easy Map</string>
+    <string name="transfer_fee_cal">Transfer Fee Calculator</string>
+    <string name="transfer_fee">Transfer Fee</string>
+    <string name="purchaser">Purchaser</string>
+    <string name="stamp_duty">Stamp Duty</string>
+    <string name="advance_income_tax">Advance Income Tax</string>
+    <string name="seller">Seller</string>
+    <string name="capital_gain_tax">Capital Gain Tax</string>
+    <string name="ndc_charges">NDC Charges</string>
+    <string name="possession_expense">Possession Expense</string>
+    <string name="possession_charges">Possession Charges</string>
+    <string name="utility_connection">Utility Connection</string>
+</resources>
