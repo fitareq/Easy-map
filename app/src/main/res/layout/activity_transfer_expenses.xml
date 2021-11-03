@@ -7,7 +7,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/primary"
+        android:background="#0f324f"
         android:navigationIcon="@drawable/ic_baseline_arrow_back_24"
         android:title="@string/transfer_fee_cal"/>
     <ScrollView

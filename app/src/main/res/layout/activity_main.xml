@@ -18,7 +18,8 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
                 <ImageView
                     android:id="@+id/property_seekers_image_view"
                     android:layout_width="match_parent"
@@ -29,7 +30,7 @@
                 <pl.droidsonroids.gif.GifImageView
                     android:id="@+id/home_image_view"
                     android:layout_width="match_parent"
-                    android:layout_height="320dp"
+                    android:layout_height="315dp"
                     android:src="@drawable/home" />
 
                 <Button
