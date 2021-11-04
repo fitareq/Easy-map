@@ -42,7 +42,12 @@ public class ImagesActivity extends AppCompatActivity {
                 sharedPreferences.getString("value2","empty"),
                 sharedPreferences.getString("value3","empty"),
                 sharedPreferences.getString("value4","empty"),
-                sharedPreferences.getString("value5","empty")
+                sharedPreferences.getString("value5","empty"),
+                sharedPreferences.getString("value6","empty"),
+                sharedPreferences.getString("value7","empty"),
+                sharedPreferences.getString("value8","empty"),
+                sharedPreferences.getString("value9","empty"),
+                sharedPreferences.getString("value10","empty")
         };
 
 

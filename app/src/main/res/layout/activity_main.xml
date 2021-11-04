@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="51dp">
+        android:layout_marginBottom="@dimen/_40sdp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -19,7 +18,7 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp">
+                android:layout_marginBottom="@dimen/_20sdp">
                 <ImageView
                     android:id="@+id/property_seekers_image_view"
                     android:layout_width="match_parent"
@@ -30,7 +29,7 @@
                 <pl.droidsonroids.gif.GifImageView
                     android:id="@+id/home_image_view"
                     android:layout_width="match_parent"
-                    android:layout_height="315dp"
+                    android:layout_height="@dimen/_254sdp"
                     android:src="@drawable/home" />
 
                 <Button
@@ -38,7 +37,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
-                    android:padding="10dp"
+                    android:padding="@dimen/_10sdp"
                     android:text="@string/transfer_fee_cal"
                     android:textAllCaps="false"
                     android:textStyle="bold" />
@@ -48,9 +47,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="2dp"
-                android:padding="5dp"
-                app:cardElevation="10dp">
+                android:layout_margin="@dimen/_2sdp"
+                android:padding="@dimen/_5sdp"
+                app:cardElevation="@dimen/_10sdp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -61,7 +60,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="@dimen/_10sdp"
                         android:text="Phase 1 to 7 Maps"
                         android:textColor="@color/title"
                         android:textSize="16sp" />
@@ -71,7 +70,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scrollbars="horizontal"
-                        android:padding="5dp"/>
+                        android:padding="@dimen/_5sdp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -79,9 +78,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="2dp"
-                android:padding="5dp"
-                app:cardElevation="10dp">
+                android:layout_margin="@dimen/_2sdp"
+                android:padding="@dimen/_5sdp"
+                app:cardElevation="@dimen/_10sdp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -92,7 +91,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="@dimen/_10sdp"
                         android:text="Safari Valley Maps"
                         android:textColor="@color/title"
                         android:textSize="16sp" />
@@ -102,7 +101,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scrollbars="horizontal"
-                        android:padding="5dp"/>
+                        android:padding="@dimen/_5sdp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -110,9 +109,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="2dp"
-                android:padding="5dp"
-                app:cardElevation="10dp">
+                android:layout_margin="@dimen/_2sdp"
+                android:padding="@dimen/_5sdp"
+                app:cardElevation="@dimen/_10sdp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -123,7 +122,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="@dimen/_10sdp"
                         android:text="Phase 8 Capital Blocks"
                         android:textColor="@color/title"
                         android:textSize="16sp" />
@@ -133,7 +132,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scrollbars="horizontal"
-                        android:padding="5dp"/>
+                        android:padding="@dimen/_5sdp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -141,9 +140,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="2dp"
-                android:padding="5dp"
-                app:cardElevation="10dp">
+                android:layout_margin="@dimen/_2sdp"
+                android:padding="@dimen/_5sdp"
+                app:cardElevation="@dimen/_10sdp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -154,7 +153,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="@dimen/_10sdp"
                         android:text="Phase 8 Special Blocks"
                         android:textColor="@color/title"
                         android:textSize="16sp" />
@@ -164,7 +163,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scrollbars="horizontal"
-                        android:padding="5dp"/>
+                        android:padding="@dimen/_5sdp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -172,9 +171,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="2dp"
-                android:padding="5dp"
-                app:cardElevation="10dp">
+                android:layout_margin="@dimen/_2sdp"
+                android:padding="@dimen/_5sdp"
+                app:cardElevation="@dimen/_10sdp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -185,7 +184,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="@dimen/_10sdp"
                         android:text="Safari Villas &amp; Awami Villas"
                         android:textColor="@color/title"
                         android:textSize="16sp" />
@@ -195,7 +194,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scrollbars="horizontal"
-                        android:padding="5dp"/>
+                        android:padding="@dimen/_5sdp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -203,9 +202,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="2dp"
-                android:padding="5dp"
-                app:cardElevation="10dp">
+                android:layout_margin="@dimen/_2sdp"
+                android:padding="@dimen/_5sdp"
+                app:cardElevation="@dimen/_10sdp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -216,7 +215,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="@dimen/_10sdp"
                         android:text="Commercials"
                         android:textColor="@color/title"
                         android:textSize="16sp" />
@@ -226,7 +225,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scrollbars="horizontal"
-                        android:padding="5dp"/>
+                        android:padding="@dimen/_5sdp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -236,11 +235,11 @@
     <com.smarteist.autoimageslider.SliderView
         android:id="@+id/main_slider"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/_39sdp"
         app:sliderAnimationDuration="500"
-        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleDirection="right"
         app:sliderAutoCycleEnabled="true"
-        app:sliderScrollTimeInSec="2"
+        app:sliderScrollTimeInSec="3"
         app:sliderStartAutoCycle="true"
         app:sliderIndicatorEnabled="false"
         android:layout_gravity="bottom"/>

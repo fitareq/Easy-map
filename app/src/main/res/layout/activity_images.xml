@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -38,8 +37,8 @@
         android:layout_weight=".75"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginStart="30dp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_30sdp"
         android:max="255"
         android:progress="255"
         />
@@ -50,19 +49,11 @@
         android:layout_height="0dp"
         android:layout_weight="0.75"
         app:sliderAnimationDuration="500"
-        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleDirection="right"
         app:sliderAutoCycleEnabled="true"
-        app:sliderScrollTimeInSec="2"
+        app:sliderScrollTimeInSec="3"
         app:sliderStartAutoCycle="true"
         app:sliderIndicatorEnabled="false"/>
-   <!-- <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight=".75"
-        android:background="#1A226B">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-    </LinearLayout>-->
+
 
 </LinearLayout>

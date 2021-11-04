@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements MapsAdapter.Recyc
         View v = binding.getRoot();
         setContentView(v);
 
+        //getting slider data from firebase
         fetchSliderDataFromFirebase();
         sharedPreferences = getSharedPreferences(myPREFERENCES, Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
@@ -60,17 +61,13 @@ public class MainActivity extends AppCompatActivity implements MapsAdapter.Recyc
         binding.mainSlider.setAutoCycleDirection(SliderView.AUTO_CYCLE_DIRECTION_BACK_AND_FORTH);
         binding.mainSlider.startAutoCycle();
 
-        //getting slider data from firebase
 
-        String[] data = {
-                sharedPreferences.getString("value1","empty"),
-                sharedPreferences.getString("value2","empty"),
-                sharedPreferences.getString("value3","empty"),
-                sharedPreferences.getString("value4","empty"),
-                sharedPreferences.getString("value5","empty")
-        };
-        SliderAdapter adapter = new SliderAdapter(data);
-        binding.mainSlider.setSliderAdapter(adapter);
+
+        //get and set data shared preferences to slider
+        fetchSliderDataFromSharedPreferences();
+
+
+
         //setting layout manager for all recycler view
         binding.p1ToP7RecyclerView.setLayoutManager(
                 new LinearLayoutManager(getApplicationContext(),LinearLayoutManager.HORIZONTAL,false)
@@ -134,6 +131,23 @@ public class MainActivity extends AppCompatActivity implements MapsAdapter.Recyc
                 });
     }
 
+    private void fetchSliderDataFromSharedPreferences() {
+        String[] data = {
+                sharedPreferences.getString("value1","empty"),
+                sharedPreferences.getString("value2","empty"),
+                sharedPreferences.getString("value3","empty"),
+                sharedPreferences.getString("value4","empty"),
+                sharedPreferences.getString("value5","empty"),
+                sharedPreferences.getString("value6","empty"),
+                sharedPreferences.getString("value7","empty"),
+                sharedPreferences.getString("value8","empty"),
+                sharedPreferences.getString("value9","empty"),
+                sharedPreferences.getString("value10","empty")
+        };
+        SliderAdapter adapter = new SliderAdapter(data);
+        binding.mainSlider.setSliderAdapter(adapter);
+    }
+
     private void fetchSliderDataFromFirebase()
     {
         FirebaseDatabase database;
@@ -151,7 +165,13 @@ public class MainActivity extends AppCompatActivity implements MapsAdapter.Recyc
                     editor.putString("value3", map.get("value3").toString());
                     editor.putString("value4", map.get("value4").toString());
                     editor.putString("value5", map.get("value5").toString());
+                    editor.putString("value6", map.get("value6").toString());
+                    editor.putString("value7", map.get("value7").toString());
+                    editor.putString("value8", map.get("value8").toString());
+                    editor.putString("value9", map.get("value9").toString());
+                    editor.putString("value10", map.get("value10").toString());
                     editor.commit();
+                    fetchSliderDataFromSharedPreferences();
 
                     //Toast.makeText(getApplicationContext(),  map.get("value1").toString(), Toast.LENGTH_SHORT).show();
 
