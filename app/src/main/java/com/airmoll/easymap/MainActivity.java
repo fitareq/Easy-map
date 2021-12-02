@@ -187,8 +187,8 @@ public class MainActivity extends AppCompatActivity implements MapsAdapter.Recyc
 
     private void initializeData() {
         //phase 1 to phase 7 data initialize
-        phaseOneToSevenData.add(new DataModel("Phase1", R.drawable.ph_one, R.drawable.ph_one_gm));
-        phaseOneToSevenData.add(new DataModel("Phase2", R.drawable.ph_two, R.drawable.ph_two_gm));
+        phaseOneToSevenData.add(new DataModel("Phase1", R.drawable.phase_1_white, R.drawable.phase_1_google));
+        phaseOneToSevenData.add(new DataModel("Phase2", R.drawable.phase_2_white, R.drawable.phase_2_google));
         phaseOneToSevenData.add(new DataModel("Phase3", R.drawable.ph_three, R.drawable.ph_three_gm));
         phaseOneToSevenData.add(new DataModel("Phase4", R.drawable.ph_four, R.drawable.ph_four_gm));
         phaseOneToSevenData.add(new DataModel("Phase5", R.drawable.ph_five, R.drawable.ph_five_gm));

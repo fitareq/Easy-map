@@ -6,11 +6,32 @@
     android:orientation="vertical"
     android:weightSum="10">
 
-    <com.airmoll.easymap.ZoomView
+    <com.otaliastudios.zoom.ZoomLayout
         android:id="@+id/zoomView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="8.5">
+        android:layout_weight="8.5"
+        android:scrollbars="vertical|horizontal"
+        app:transformation="centerInside"
+        app:transformationGravity="auto"
+        app:alignment="center"
+        app:overScrollHorizontal="true"
+        app:overScrollVertical="true"
+        app:overPinchable="true"
+        app:horizontalPanEnabled="true"
+        app:verticalPanEnabled="true"
+        app:zoomEnabled="true"
+        app:flingEnabled="true"
+        app:scrollEnabled="true"
+        app:oneFingerScrollEnabled="true"
+        app:twoFingersScrollEnabled="true"
+        app:threeFingersScrollEnabled="true"
+        app:minZoom="1.0"
+        app:minZoomType="zoom"
+        app:maxZoom="10.0"
+        app:maxZoomType="zoom"
+        app:animationDuration="280"
+        app:hasClickableChildren="false">
         <RelativeLayout
 
             android:id="@+id/zoomViewChild"
@@ -29,7 +50,8 @@
                 android:layout_height="match_parent"
                 />
         </RelativeLayout>
-    </com.airmoll.easymap.ZoomView>
+    </com.otaliastudios.zoom.ZoomLayout>
+
 
 
     <SeekBar

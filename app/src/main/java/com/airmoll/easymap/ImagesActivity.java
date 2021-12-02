@@ -3,6 +3,8 @@ package com.airmoll.easymap;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.Toast;
@@ -35,6 +37,7 @@ public class ImagesActivity extends AppCompatActivity {
         binding = ActivityImagesBinding.inflate(getLayoutInflater());
         View v = binding.getRoot();
         setContentView(v);
+
 
         sharedPreferences = getSharedPreferences(myPREFERENCES, Context.MODE_PRIVATE);
         String[] data = {
@@ -93,5 +96,6 @@ public class ImagesActivity extends AppCompatActivity {
             }
         });
     }
+
 
 }
