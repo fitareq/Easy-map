@@ -205,35 +205,37 @@ public class MainActivity extends AppCompatActivity implements MapsAdapter.Recyc
         safariValleyMapsData.add(new DataModel("Safari Homes", 0, 0));
 
         //phase 8 capital blocks data initialize
-        phaseEightCapitalBlocksData.add(new DataModel("A Block", R.drawable.am, R.drawable.agm));
+        phaseEightCapitalBlocksData.add(new DataModel("A Block", R.drawable.block_a_white, R.drawable.block_a_google));
         phaseEightCapitalBlocksData.add(new DataModel("A1 Block", R.drawable.a1m, R.drawable.a1gm));
-        phaseEightCapitalBlocksData.add(new DataModel("B Block", R.drawable.bm, R.drawable.bgm));
-        phaseEightCapitalBlocksData.add(new DataModel("C Block", R.drawable.cm, R.drawable.cgm));
-        phaseEightCapitalBlocksData.add(new DataModel("D Block", R.drawable.dm, R.drawable.dgm));
-        phaseEightCapitalBlocksData.add(new DataModel("E Block", R.drawable.em, R.drawable.egm));
-        phaseEightCapitalBlocksData.add(new DataModel("E1 Block", R.drawable.e1m, R.drawable.e1gm));
-        phaseEightCapitalBlocksData.add(new DataModel("F1 Block", R.drawable.f1m, R.drawable.f1gm));
-        phaseEightCapitalBlocksData.add(new DataModel("F2 Block", R.drawable.f1m, R.drawable.f2gm));
-        phaseEightCapitalBlocksData.add(new DataModel("F3 Block", R.drawable.f3m, R.drawable.f3gm));
-        phaseEightCapitalBlocksData.add(new DataModel("F4 Block", R.drawable.f4m, R.drawable.f4gm));
-        phaseEightCapitalBlocksData.add(new DataModel("G Block", R.drawable.gm, R.drawable.ggm));
-        phaseEightCapitalBlocksData.add(new DataModel("H Block", R.drawable.hm, R.drawable.hgm));
-        phaseEightCapitalBlocksData.add(new DataModel("I Block", R.drawable.im, R.drawable.igm));
-        phaseEightCapitalBlocksData.add(new DataModel("J Block", R.drawable.jm, R.drawable.jgm));
-        phaseEightCapitalBlocksData.add(new DataModel("K Block", R.drawable.km, R.drawable.kgm));
-        phaseEightCapitalBlocksData.add(new DataModel("L Block", R.drawable.lm, R.drawable.lgm));
-        phaseEightCapitalBlocksData.add(new DataModel("M Block", R.drawable.mm, R.drawable.mgm));
-        phaseEightCapitalBlocksData.add(new DataModel("N Block", R.drawable.nm, R.drawable.ngm));
-        phaseEightCapitalBlocksData.add(new DataModel("P Block", R.drawable.pm, R.drawable.pgm));
+        phaseEightCapitalBlocksData.add(new DataModel("B Block", R.drawable.bm, R.drawable.block_b_google));
+        phaseEightCapitalBlocksData.add(new DataModel("C Block", R.drawable.block_c_white, R.drawable.block_c_google));
+        phaseEightCapitalBlocksData.add(new DataModel("D Block", R.drawable.block_d_white, R.drawable.block_d_google));
+        phaseEightCapitalBlocksData.add(new DataModel("E Block", R.drawable.block_e_white, R.drawable.block_e_google));
+        phaseEightCapitalBlocksData.add(new DataModel("E1 Block", R.drawable.block_e1_white, R.drawable.block_e1_google));
+        phaseEightCapitalBlocksData.add(new DataModel("F1 Block", R.drawable.block_f1_white, R.drawable.block_f1_google));
+        phaseEightCapitalBlocksData.add(new DataModel("F2 Block", R.drawable.f2_block_white, R.drawable.block_f2_google));
+        phaseEightCapitalBlocksData.add(new DataModel("F3 Block", R.drawable.f3_block_white, R.drawable.block_f3_google));
+        phaseEightCapitalBlocksData.add(new DataModel("F4 Block", R.drawable.f4_block_white, R.drawable.block_f4_google));
+        phaseEightCapitalBlocksData.add(new DataModel("G Block", R.drawable.g_block_white, R.drawable.block_g_google));
+        phaseEightCapitalBlocksData.add(new DataModel("H1 Block", R.drawable.h1_block_white, R.drawable.h1_block_google));
+        phaseEightCapitalBlocksData.add(new DataModel("H2 Block", R.drawable.h2_block_white, R.drawable.h2_block_google));
+        phaseEightCapitalBlocksData.add(new DataModel("I Block", R.drawable.block_i_white, R.drawable.block_i_google));
+        phaseEightCapitalBlocksData.add(new DataModel("J Block", R.drawable.block_j_white, R.drawable.block_j_google));
+        phaseEightCapitalBlocksData.add(new DataModel("K Block", R.drawable.block_k_white, R.drawable.block_k_google));
+        phaseEightCapitalBlocksData.add(new DataModel("L Block", R.drawable.block_l_white, R.drawable.block_l_google));
+        phaseEightCapitalBlocksData.add(new DataModel("M Block", R.drawable.block_m_white, R.drawable.block_m_google));
+        phaseEightCapitalBlocksData.add(new DataModel("N Block", R.drawable.block_n_white, R.drawable.block_n_google));
+        phaseEightCapitalBlocksData.add(new DataModel("P Block", R.drawable.block_p_white, R.drawable.block_p_google));
 
 
         //Phase 8 Special Blocks data initialize
         phaseEightSpecialBlocksData.add(new DataModel("Hamlets", 0, 0));
-        phaseEightSpecialBlocksData.add(new DataModel("Garden City", 0, 0));
-        phaseEightSpecialBlocksData.add(new DataModel("Overseas Block", 0, 0));
+        phaseEightSpecialBlocksData.add(new DataModel("Garden City Zone 3", R.drawable.garden_city_zone3_white, R.drawable.garden_city_zone3_google));
+        phaseEightSpecialBlocksData.add(new DataModel("Garden City Zone 5", R.drawable.garden_city_zone5_white, R.drawable.garden_city_zone5_google));
+        phaseEightSpecialBlocksData.add(new DataModel("Overseas Block", R.drawable.overseas_block_white, R.drawable.overseas_block_google));
         phaseEightSpecialBlocksData.add(new DataModel("Orchad", 0, 0));
-        phaseEightSpecialBlocksData.add(new DataModel("Rose Garden", 0, 0));
-        phaseEightSpecialBlocksData.add(new DataModel("Owais Block", 0, 0));
+        phaseEightSpecialBlocksData.add(new DataModel("Rose Garden", R.drawable.rose_garden_white, R.drawable.rose_garden_google));
+        phaseEightSpecialBlocksData.add(new DataModel("Owais Block", R.drawable.owais_block_white, R.drawable.owais_block_google));
         phaseEightSpecialBlocksData.add(new DataModel("Club City", 0, 0));
         phaseEightSpecialBlocksData.add(new DataModel("Intellectual Village", 0, 0));
 
@@ -250,7 +252,7 @@ public class MainActivity extends AppCompatActivity implements MapsAdapter.Recyc
         //Commercials data initialize
         commercialsData.add(new DataModel("Spring North",0,0));
         commercialsData.add(new DataModel("Spring South",0,0));
-        commercialsData.add(new DataModel("Business District",0,0));
+        commercialsData.add(new DataModel("Business District",R.drawable.business_distric_white,R.drawable.business_district_google));
         commercialsData.add(new DataModel("Hub Commercial",0,0));
         commercialsData.add(new DataModel("Midway Commercial",0,0));
         commercialsData.add(new DataModel("Mini Commercial",0,0));
